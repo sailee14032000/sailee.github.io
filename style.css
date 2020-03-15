@@ -1,0 +1,446 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	background: rgb(240,245,244);
+}
+
+.heade{
+	position: relative;
+	}
+nav{
+	position: relative;
+    background:rgba(120,168,126,0.7);
+
+}
+nav ul{
+    position: relative;
+    margin-left:30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+	position: relative;
+	list-style: none;
+	padding:6px 15px ;
+	
+	
+}
+nav ul li a{
+	color: rgb(42,60,44);
+ 	font-size: 90%;
+ 	cursor: pointer;
+ 	text-decoration: none;
+
+}
+nav ul li a:hover{
+	background: rgb(81,112,84);
+	cursor: pointer;
+    padding: 3px;
+    color: white;
+    border-radius: 5px;
+    box-shadow:-3px -3px 5px 1px rgba(120,165,123,0.7);
+}
+
+.home1{
+	position: relative;
+    top: 5%;
+
+ }
+.hvideo{
+	position: relative;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.hvideo video{
+	position: relative;
+	width: 40%;
+	border-radius: 5px;
+	box-shadow: -3px -3px 8px 3px rgb(202,255,191), 3px 3px 8px 3px rgb(108,138,108);
+}
+.hinfo{
+	
+    margin: 3% 8%;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(38,43,37);
+
+    
+}
+.hinfo p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+button{
+	cursor: pointer;
+	position: relative;
+	display: block;
+	
+	background: rgb(81,112,84);
+	padding: 6px;
+	border-radius: 10px;
+	color: white;
+	margin: 5px;
+	font-size: 20px;
+	border-style: none;
+	text-align: center;
+	box-shadow: 2px 2px 4px 0px rgb(108,138,108);
+
+	
+}
+
+.home2{
+	position: relative;
+	width: 100vw;
+    margin-top: 25px;
+	
+    
+}
+.hpic{
+	
+	position: relative;
+	
+}
+.hpic img{
+	width: 100%;
+    }
+
+.home2 ul{
+	position: relative;
+	background: rgb(99,68,29);
+	margin-top: -8%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+    
+}
+.home2 ul li{
+	list-style: none;
+	position: relative;
+	width: 25%;
+	margin-left:  2%;
+	margin-right: 2%; 
+	margin-bottom: 4%;
+	padding:30px;
+    font-size: 22px;
+	background-color: green;
+	border-radius: 10px;
+	background:rgba(250,255,250,0.9);
+	}
+button:hover{
+	box-shadow: -2px -2px 5px 2px rgb(202,255,191), 2px 2px 5px 2px rgb(108,138,108);
+
+}
+
+
+
+.home4{
+	position: relative;
+	width: 100vw;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+.home4i{
+	position: relative;
+	width: 40vw;
+	height: 25vw;
+	margin: 0 auto;
+	
+
+}
+.home4info{
+	position: absolute;
+	width: 100%;
+	z-index: 99;
+	top: 8%;
+	font-size: 27px;
+	margin: 0 auto;
+	text-align: center;
+	word-spacing: 5px;
+}
+.fruits{
+	position: relative;
+	padding-top:60px;
+}
+.orange{
+	position: absolute;
+	top: 61%;
+	z-index:-1;
+}
+.orangeimg{
+	position: relative;
+	width: 5vw;
+    left: 10vw;
+	height: 5vw;
+	
+}
+.orangeimg.animate{
+	animation: ora 3s ease-out;
+	animation-fill-mode: forwards;
+}
+@keyframes ora{
+	0%{
+		transform: translate(10vw) rotate(60deg);
+	}
+	
+	
+	100%{
+		transform: translate(65vw) rotate(350deg);
+		
+	}
+}
+
+.sscontainer{
+	position: relative;
+	width: 100vw;
+	margin: 2% 0%;
+
+}
+.myslide{
+	position:relative;
+	width: 100%;
+	padding: 5% 10%;
+	text-align: center;
+	background: rgb(231,231,231);
+}
+.person{
+	position: relative;
+    text-align: center;
+	color: cornflowerblue;
+	padding: 1%;
+}
+.contentslide{
+	position: relative;
+   	font-size: 24px;
+   
+   	
+}
+
+.previous,.next{
+	position: absolute;
+	top: 50%;
+	transform: translate(0%,-50%);
+	margin: 0% 3%;
+	font-size: 50px;
+	font-weight: 600;
+	color: rgb(111,111,111);
+    cursor: pointer;
+
+
+}
+.next{
+	position:absolute;
+	right: 0;
+}
+
+
+
+
+
+
+.home5{
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 1%;
+	
+}
+.faicons{
+	position: relative;
+	width: 100%;
+	padding:50px 0px;
+	font-size: 25px;
+
+}
+.faicons i{
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.faicons p{
+	text-align: center;
+
+}
+.contact{
+	position: relative;
+	margin:0;
+	padding: 5%;
+	background: black;
+	font-size: 22px;
+	color: white;
+}
+.qc1{
+	position: relative;
+}
+.contactheader{
+	font-size: 22px;
+	color: rgb(169,255,238);
+
+}
+.links{
+	position: relative;
+	
+}
+.links i{
+	position: relative;
+	padding: 20px;
+	margin-bottom:  15px;
+	cursor: pointer;
+	top: 10px;
+}
+.links i:hover{
+	border-bottom: 3px ridge;
+	border-bottom-width: 3px;
+    border-color: rgb(169,255,238);
+    top: -5px;
+}
+.pam{
+	position: relative;
+	padding: 20px;
+}
+
+
+.paminfo{
+	padding-left: 20px;
+	display: inline-block;
+}
+
+.foot{
+	margin-top: 30px;
+	font-size: 20px;
+	color: rgb(169,255,238);
+	background: rgba(98,98,98,0.5);
+}
+.sailee{
+	position: relative;
+	font-size: 16px;
+	margin-top: 20px;
+
+}
+.sailee a{
+	position: relative;
+	color: rgb(169,255,238);
+	cursor: pointer;
+	text-decoration: none;
+}
+.sailee a:hover{
+	text-decoration: underline;
+}
+
+
+@media(max-width: 800px)
+{
+	.toggle{
+		position: absolute;
+		cursor: pointer;
+		
+        opacity: 1;
+        top: 10px;
+        margin-left: 10px;
+        color: rgb(81,112,84);
+        font-size: 20px;
+        z-index: 99;
+        transition: all .5s linear;
+        	}
+
+    .toggle:before{
+    	content: '\f0c9';
+		font-family:fontAwesome;
+	    display: block;	
+       
+    }
+    .toggle.active:before{
+    	content: '\f00d';
+		font-family:fontAwesome;
+	    display: block;	
+     
+    }
+    
+	nav.active ul{
+		display: block;
+        margin-left: 0%;
+        padding: 5%;
+        width: 100%;
+        transition: all .2s linear; 
+    }
+	nav.active ul li{
+	    width: 100%;
+		display: block;
+      
+
+    }
+    nav.active ul li a{
+		color: black;
+		
+        text-align: center;
+    }
+    nav.active ul li a:active,
+    nav.active ul li a:hover{
+	    color: white;
+		
+    }
+	nav ul li{
+		display: none;
+	}
+    .hvideo video{
+    	width: 85%;
+    }
+    .hinfo{
+    	font-size: 18px;
+    	margin: 6% 8%;
+    }
+    .home2 ul{
+    	flex-direction: column;
+    }
+    .home2 ul li{
+    	width: 75%;
+    	font-size: 18px;
+        margin: 5%;
+     }
+    .home4info{
+   	font-size: 18px;
+   	top: 5%;
+   	padding-bottom: 22px;
+   }
+   .home4i{
+   
+   	width: 55%;
+   	height: 40%;
+   }
+   .orangeimg{
+   	width: 8%;
+   	height: 8%;
+   }
+   .contact{
+   	font-size: 18px;
+   }
+   .contentslide{
+   	font-size: 18px;
+   }
+   .contactheader{
+   	font-size: 20px;
+   }
+   .foot{
+   	font-size: 18px;
+   }
+   .faicons p{
+   	font-size: 18px;
+   }
+}
